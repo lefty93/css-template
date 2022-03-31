@@ -15,7 +15,8 @@ Instead,
 3. get outline stroke of filled text (no strokes!)
 4. copy as svg
 
-And you should get
+And you should get:
+```
 <svg ...>
 <path d="..." fill="..." />
 <path d="..." fill="..." />
@@ -25,9 +26,11 @@ And you should get
 <path d="..." fill="..." />
 <path d="..." fill="..." />
 </svg>
+```
 
 remove the fill property and add stroke="white" & stroke-width="5" to the path tags. The paths should look like
+```
 <path d="..." stroke="white" stroke-width="5" />
-
+```
 It is important that you remove the fill property or else the fill animation at the end won't work.
 
